@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2222B9F41B6B608100480D48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222B9F31B6B608100480D48 /* main.m */; };
+		2222B9F71B6B608100480D48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222B9F61B6B608100480D48 /* AppDelegate.m */; };
+		2222B9FA1B6B608100480D48 /* MCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222B9F91B6B608100480D48 /* MCLoginViewController.m */; };
+		2222B9FD1B6B608100480D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2222B9FB1B6B608100480D48 /* Main.storyboard */; };
+		2222BA001B6B608100480D48 /* MiCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2222B9FE1B6B608100480D48 /* MiCar.xcdatamodeld */; };
+		2222BA021B6B608100480D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2222BA011B6B608100480D48 /* Assets.xcassets */; };
+		2222BA051B6B608100480D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2222BA031B6B608100480D48 /* LaunchScreen.storyboard */; };
+		2222BA101B6B608100480D48 /* MiCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222BA0F1B6B608100480D48 /* MiCarTests.m */; };
+		2222BA1B1B6B608100480D48 /* MiCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222BA1A1B6B608100480D48 /* MiCarUITests.m */; };
+		2222BA2A1B6B86E300480D48 /* MCLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222BA291B6B86E300480D48 /* MCLandingViewController.m */; };
+		2222BA2D1B6B873600480D48 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222BA2C1B6B873600480D48 /* SWRevealViewController.m */; };
+		2222BA301B6B887500480D48 /* MCDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222BA2F1B6B887500480D48 /* MCDashboardViewController.m */; };
+		2222BA331B6B88D300480D48 /* RADashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2222BA321B6B88D300480D48 /* RADashboardTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2222BA0C1B6B608100480D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2222B9E71B6B608100480D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2222B9EE1B6B608100480D48;
+			remoteInfo = MiCar;
+		};
+		2222BA171B6B608100480D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2222B9E71B6B608100480D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2222B9EE1B6B608100480D48;
+			remoteInfo = MiCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2222B9EF1B6B608100480D48 /* MiCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2222B9F31B6B608100480D48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2222B9F51B6B608100480D48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2222B9F61B6B608100480D48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2222B9F81B6B608100480D48 /* MCLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCLoginViewController.h; sourceTree = "<group>"; };
+		2222B9F91B6B608100480D48 /* MCLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCLoginViewController.m; sourceTree = "<group>"; };
+		2222B9FC1B6B608100480D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2222B9FF1B6B608100480D48 /* MiCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiCar.xcdatamodel; sourceTree = "<group>"; };
+		2222BA011B6B608100480D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2222BA041B6B608100480D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2222BA061B6B608100480D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2222BA0B1B6B608100480D48 /* MiCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2222BA0F1B6B608100480D48 /* MiCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiCarTests.m; sourceTree = "<group>"; };
+		2222BA111B6B608100480D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2222BA161B6B608100480D48 /* MiCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2222BA1A1B6B608100480D48 /* MiCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiCarUITests.m; sourceTree = "<group>"; };
+		2222BA1C1B6B608100480D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2222BA281B6B86E300480D48 /* MCLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLandingViewController.h; sourceTree = "<group>"; };
+		2222BA291B6B86E300480D48 /* MCLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLandingViewController.m; sourceTree = "<group>"; };
+		2222BA2B1B6B873600480D48 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2222BA2C1B6B873600480D48 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2222BA2E1B6B887500480D48 /* MCDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDashboardViewController.h; sourceTree = "<group>"; };
+		2222BA2F1B6B887500480D48 /* MCDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDashboardViewController.m; sourceTree = "<group>"; };
+		2222BA311B6B88D300480D48 /* RADashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADashboardTableViewCell.h; sourceTree = "<group>"; };
+		2222BA321B6B88D300480D48 /* RADashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADashboardTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2222B9EC1B6B608100480D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2222BA081B6B608100480D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2222BA131B6B608100480D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2222B9E61B6B608100480D48 = {
+			isa = PBXGroup;
+			children = (
+				2222B9F11B6B608100480D48 /* MiCar */,
+				2222BA0E1B6B608100480D48 /* MiCarTests */,
+				2222BA191B6B608100480D48 /* MiCarUITests */,
+				2222B9F01B6B608100480D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2222B9F01B6B608100480D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2222B9EF1B6B608100480D48 /* MiCar.app */,
+				2222BA0B1B6B608100480D48 /* MiCarTests.xctest */,
+				2222BA161B6B608100480D48 /* MiCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2222B9F11B6B608100480D48 /* MiCar */ = {
+			isa = PBXGroup;
+			children = (
+				2222BA311B6B88D300480D48 /* RADashboardTableViewCell.h */,
+				2222BA321B6B88D300480D48 /* RADashboardTableViewCell.m */,
+				2222BA2B1B6B873600480D48 /* SWRevealViewController.h */,
+				2222BA2C1B6B873600480D48 /* SWRevealViewController.m */,
+				2222B9F51B6B608100480D48 /* AppDelegate.h */,
+				2222B9F61B6B608100480D48 /* AppDelegate.m */,
+				2222B9F81B6B608100480D48 /* MCLoginViewController.h */,
+				2222B9F91B6B608100480D48 /* MCLoginViewController.m */,
+				2222B9FB1B6B608100480D48 /* Main.storyboard */,
+				2222BA011B6B608100480D48 /* Assets.xcassets */,
+				2222BA031B6B608100480D48 /* LaunchScreen.storyboard */,
+				2222BA061B6B608100480D48 /* Info.plist */,
+				2222B9FE1B6B608100480D48 /* MiCar.xcdatamodeld */,
+				2222B9F21B6B608100480D48 /* Supporting Files */,
+				2222BA281B6B86E300480D48 /* MCLandingViewController.h */,
+				2222BA291B6B86E300480D48 /* MCLandingViewController.m */,
+				2222BA2E1B6B887500480D48 /* MCDashboardViewController.h */,
+				2222BA2F1B6B887500480D48 /* MCDashboardViewController.m */,
+			);
+			path = MiCar;
+			sourceTree = "<group>";
+		};
+		2222B9F21B6B608100480D48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2222B9F31B6B608100480D48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2222BA0E1B6B608100480D48 /* MiCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2222BA0F1B6B608100480D48 /* MiCarTests.m */,
+				2222BA111B6B608100480D48 /* Info.plist */,
+			);
+			path = MiCarTests;
+			sourceTree = "<group>";
+		};
+		2222BA191B6B608100480D48 /* MiCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2222BA1A1B6B608100480D48 /* MiCarUITests.m */,
+				2222BA1C1B6B608100480D48 /* Info.plist */,
+			);
+			path = MiCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2222B9EE1B6B608100480D48 /* MiCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2222BA1F1B6B608100480D48 /* Build configuration list for PBXNativeTarget "MiCar" */;
+			buildPhases = (
+				2222B9EB1B6B608100480D48 /* Sources */,
+				2222B9EC1B6B608100480D48 /* Frameworks */,
+				2222B9ED1B6B608100480D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiCar;
+			productName = MiCar;
+			productReference = 2222B9EF1B6B608100480D48 /* MiCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2222BA0A1B6B608100480D48 /* MiCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2222BA221B6B608100480D48 /* Build configuration list for PBXNativeTarget "MiCarTests" */;
+			buildPhases = (
+				2222BA071B6B608100480D48 /* Sources */,
+				2222BA081B6B608100480D48 /* Frameworks */,
+				2222BA091B6B608100480D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2222BA0D1B6B608100480D48 /* PBXTargetDependency */,
+			);
+			name = MiCarTests;
+			productName = MiCarTests;
+			productReference = 2222BA0B1B6B608100480D48 /* MiCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2222BA151B6B608100480D48 /* MiCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2222BA251B6B608100480D48 /* Build configuration list for PBXNativeTarget "MiCarUITests" */;
+			buildPhases = (
+				2222BA121B6B608100480D48 /* Sources */,
+				2222BA131B6B608100480D48 /* Frameworks */,
+				2222BA141B6B608100480D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2222BA181B6B608100480D48 /* PBXTargetDependency */,
+			);
+			name = MiCarUITests;
+			productName = MiCarUITests;
+			productReference = 2222BA161B6B608100480D48 /* MiCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2222B9E71B6B608100480D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sandy;
+				TargetAttributes = {
+					2222B9EE1B6B608100480D48 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2222BA0A1B6B608100480D48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2222B9EE1B6B608100480D48;
+					};
+					2222BA151B6B608100480D48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2222B9EE1B6B608100480D48;
+					};
+				};
+			};
+			buildConfigurationList = 2222B9EA1B6B608100480D48 /* Build configuration list for PBXProject "MiCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2222B9E61B6B608100480D48;
+			productRefGroup = 2222B9F01B6B608100480D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2222B9EE1B6B608100480D48 /* MiCar */,
+				2222BA0A1B6B608100480D48 /* MiCarTests */,
+				2222BA151B6B608100480D48 /* MiCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2222B9ED1B6B608100480D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2222BA051B6B608100480D48 /* LaunchScreen.storyboard in Resources */,
+				2222BA021B6B608100480D48 /* Assets.xcassets in Resources */,
+				2222B9FD1B6B608100480D48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2222BA091B6B608100480D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2222BA141B6B608100480D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2222B9EB1B6B608100480D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2222B9FA1B6B608100480D48 /* MCLoginViewController.m in Sources */,
+				2222B9F71B6B608100480D48 /* AppDelegate.m in Sources */,
+				2222BA001B6B608100480D48 /* MiCar.xcdatamodeld in Sources */,
+				2222BA331B6B88D300480D48 /* RADashboardTableViewCell.m in Sources */,
+				2222B9F41B6B608100480D48 /* main.m in Sources */,
+				2222BA2A1B6B86E300480D48 /* MCLandingViewController.m in Sources */,
+				2222BA2D1B6B873600480D48 /* SWRevealViewController.m in Sources */,
+				2222BA301B6B887500480D48 /* MCDashboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2222BA071B6B608100480D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2222BA101B6B608100480D48 /* MiCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2222BA121B6B608100480D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2222BA1B1B6B608100480D48 /* MiCarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2222BA0D1B6B608100480D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2222B9EE1B6B608100480D48 /* MiCar */;
+			targetProxy = 2222BA0C1B6B608100480D48 /* PBXContainerItemProxy */;
+		};
+		2222BA181B6B608100480D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2222B9EE1B6B608100480D48 /* MiCar */;
+			targetProxy = 2222BA171B6B608100480D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2222B9FB1B6B608100480D48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2222B9FC1B6B608100480D48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2222BA031B6B608100480D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2222BA041B6B608100480D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2222BA1D1B6B608100480D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2222BA1E1B6B608100480D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2222BA201B6B608100480D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = San.MiCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2222BA211B6B608100480D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = San.MiCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2222BA231B6B608100480D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = San.MiCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiCar.app/MiCar";
+			};
+			name = Debug;
+		};
+		2222BA241B6B608100480D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = San.MiCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiCar.app/MiCar";
+			};
+			name = Release;
+		};
+		2222BA261B6B608100480D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = San.MiCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiCar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2222BA271B6B608100480D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = San.MiCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiCar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2222B9EA1B6B608100480D48 /* Build configuration list for PBXProject "MiCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2222BA1D1B6B608100480D48 /* Debug */,
+				2222BA1E1B6B608100480D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2222BA1F1B6B608100480D48 /* Build configuration list for PBXNativeTarget "MiCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2222BA201B6B608100480D48 /* Debug */,
+				2222BA211B6B608100480D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2222BA221B6B608100480D48 /* Build configuration list for PBXNativeTarget "MiCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2222BA231B6B608100480D48 /* Debug */,
+				2222BA241B6B608100480D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2222BA251B6B608100480D48 /* Build configuration list for PBXNativeTarget "MiCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2222BA261B6B608100480D48 /* Debug */,
+				2222BA271B6B608100480D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2222B9FE1B6B608100480D48 /* MiCar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2222B9FF1B6B608100480D48 /* MiCar.xcdatamodel */,
+			);
+			currentVersion = 2222B9FF1B6B608100480D48 /* MiCar.xcdatamodel */;
+			path = MiCar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2222B9E71B6B608100480D48 /* Project object */;
+}
